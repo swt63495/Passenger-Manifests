@@ -1,0 +1,458 @@
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+
+		<title>Passenger Manifest Data Entry Form ver. 8</title>
+
+
+<!-- 
+
+Questions
+
+	1. how handle country, city, address inputs? They are separate pieces of info that get grouped together internally (in program). I plan to have drop-down menus for choosing from existing addresses, etc.  But how intergrate this with the addition of new ones?
+
+	2. When will I start Php coding? This year?
+
+	3. HTML form, php handling and MySQL code all need exception handling. I could go overboard, but I need to at least have some error checking.
+
+	4. Add #3 to punch list- -things to notenow and tackle later.
+
+	5. Punch list:
+		check for isset(field) to catch unset fields
+		easy method for normalizing variable names across html, php and sql code!
+		exception handling
+		multi-row spreasdsheet style input
+		confirm patron's choices before running query...
+		style sheet
+		non-table form?
+		'joining someone?' If not, skip over some columns (deactivate and adjust tab order!)
+		shrinkable sections of long horizontal table?
+		figure out SQL 'triangle of death' problem
+		tune sql constraints
+		ways to add, delete, edit rows
+		how import data into rows?
+		design actual search queries
+		check that 'married' and 'wife' are consistent for passenger
+		autority control: ideally, every field would have 
+			1. value taken unaltered from document
+			2. lwhat I think value is or should be
+			3. why I think so
+			4. Level of confidence
+			5. Link to supporting data???
+
+ -->
+
+		<style type="text/css">
+
+			table, td, th {
+				border-collapse: collapse; /* does slightly strange things to borders */
+				padding: 0;
+				font-size: 1em;
+			}
+
+			table{
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+			}
+
+			td, th {
+				border-right: 1px solid black;
+				border-bottom: 1px solid black;
+			}
+
+			input {
+				text-align: center;
+				border: 0px ;
+				font-size: 1em;
+			}
+
+			input.btn {
+				border:1px solid black; /* buttons get borders */
+			}
+
+			input#nv {
+				background-color: yellow;
+			}
+
+			select, option {
+				font-size: 1em;
+				padding-left: 1em;
+			}
+
+			/*option {padding-left: 1em;}*/
+
+/*			.skipable {
+				background-color: #F0F0F0;
+			}
+*/
+			table h1, table h3 {
+				margin-top: .5em;
+				margin-bottom: .5em;
+				font-weight:bold;
+				color:green;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+
+			/* toggles visibility of new vessel input box (tbl 1), and changes button text accordingly! */
+			function toggle(btn_txt, element){
+				var x = document.getElementById(element);
+				if(x.getAttribute('type') === 'hidden'){
+					x.removeAttribute('type', 'hidden');
+					btn_txt.value = 'Hide vessel box';
+				}
+				else
+				{
+					x.setAttribute('type', 'hidden');
+					btn_txt.value = 'Show vessel box';
+				}
+			}
+
+
+			function toggle2(selection, element){
+				alert(selection.value);
+				x = document.getElementById(element);
+				if(selection.value = "1"){
+					x.removeAttribute('type', 'hidden');
+				}
+				else
+				{
+					x.setAttribute('type', 'hidden');
+				}
+
+			}
+
+			function toggleX(element){
+				var x = document.getElementById(element);
+				if(x.getAttribute('type') === 'hidden'){
+					x.removeAttribute('type', 'hidden');
+					this.value = 'Hide vessel box';
+				}
+				else
+				{
+					x.setAttribute('type', 'hidden');
+					this.value = 'Show vessel box';
+				}
+			}
+
+
+
+
+			/*	The next 2 functions enable/disable form input for the 'joining someone?' person (table 6).
+				If only I could do more styling to these cells...	*/
+
+			function enable_fields(){
+				var fld = document.getElementsByClassName("skipable");
+				for(i=0;i<fld.length; i++){
+					fld[i].style.backgroundColor = "white";
+					fld[i].parentNode.style.backgroundColor = "white";
+					fld[i].disabled = false;
+					// fld[i].type = 'text';
+				}
+			}
+
+			function disable_fields(){
+				var fld = document.getElementsByClassName("skipable");
+				for(i=0;i<fld.length; i++){
+					fld[i].style.backgroundColor = "#909090";
+					fld[i].parentNode.style.backgroundColor = "#909090";
+					fld[i].disabled = true;
+					// fld[i].type = 'hidden';
+				}
+			}
+
+
+
+		</script>
+
+	</head>
+
+	<body>
+		<h1>Passenger Manifest Data Entry Form ver. 8</h1>
+		<br />
+		<br />
+
+		<form action="new_psgr_record8.php" method="post">
+
+			<input class="btn" type="submit" value = "Submit"/>
+			<input class="btn" type="reset" />
+			<br />
+			<br />
+			<br />
+
+			<input class = "btn" type = "button" value = "Toggle visibility" onclick = "toggle(this, 'nv')" />
+			<br /><br />
+
+			<!-- Voyage Information (7 rows) -->
+			<table id="1">
+				<tr>
+					<th colspan = "7" ><h3>1) Voyage Information</h3></th>
+				</tr>
+				<tr>
+					<th>Vessel</th>
+					<th>Country sailed from</th>
+					<th>City sailed from</th>
+					<th>Departure date</th>
+					<th>Arrival date</th>
+					<th>List No.</th>
+					<th>Line No. </th>
+				</tr>
+				<tr>
+					<!-- <td><input type="text" name="vessel" placeholder="Vessel" /></td> -->
+					<td>
+						<input type="hidden" name="doctype" value = "1" />
+						
+						<select id = "myselection" name = "id_vessel" onchange="toggle2(this 'nv')">
+
+							<option value = "1" selected >Unknown</option>
+							<option value = "2">Advance</option>
+							<option value = "3">Colon</option>
+							<option value = "4">General G. W. Goethals</option>
+							<option value = "5">Lennnjan?</option>
+							<option value = "6">Pancras</option>
+							<option value = "7">Thespis</option>
+							<option value = "8">Vandyck</option>
+							<option value = "9">Vauban</option>
+							<option value = "0">New Entry</option>
+						</select>
+
+						<!-- add a boat box is hidden by default -->
+						<input id="nv" type="hidden" name="new_vessel_name" placeholder="New vessel Name"/>
+					</td>
+					<td><input type="text" name="place[sailed_from][country]" placeholder = "Country" value = "Barbados" /></td>
+					<td><input type="text" name="place[sailed_from][city]" placeholder = "City" /></td>
+					<td><input type="date" name="date_departed" placeholder="Departure date" /></td>
+					<td><input type="date" name="date_arrived" placeholder="Arrival date" /></td>
+					<td><input type="text" name="list_no" placeholder="List No." /></td>
+					<td><input type="text" name="line_no" placeholder="Line No." /></td>
+
+				</tr>
+			</table>
+			<br /><br />
+
+
+					<!-- Passenger Information (12 rows)-->
+			<table id="2">
+				<tr>
+					<th colspan="13"><h3>(2) Passenger Information</h3></th>
+				</tr>
+				<tr>
+					<th>Passenger's last name</th>
+					<th>Passenger's first name</th>
+					<th>Canonical person?</th>
+					<th>Age (years)</th>
+					<th>Age (months)</th>
+					<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+					<th>Married?</th>
+					<th>Calling or Occupation</th>
+					<th>Can&nbsp;read?</th>
+					<th>Can&nbsp;write?</th>
+					<th>Nationality</th>
+					<th>Race</th>
+				</tr>
+				<tr>
+					<td><input type="text" name="person[passenger][lname]" placeholder="Last name?" value = "Burke" /></td>
+					<td><input type="text" name="person[passenger][fname]" placeholder="First name?" /></td>
+
+					<td>
+						<select name="id_canon_person">
+							<option value = "0" checked>Unknown</option>
+							<option value = "2">Dudley Browne</option>
+							<option value = "3">Ashton Codrington</option>
+							<option value = "4">Earle Browne</option>
+							<option value = "5">Rosalie Beckles?</option>
+							<option value = "6">Joseph Beckles</option>
+							<option value = "7">Mariam Browne</option>
+							<option value = "8">Vashti Edwards</option>
+							<option value = "9">Ada Kathleen Burke</option>
+							<option value = "10">Conrad Sarsfield Burke</option>
+							<option value = "11">Nathaniel Burke</option>
+							<option value = "12">Cleveland Burke</option>
+							<option value = "1">NEW ENTRY</option>
+						</select>
+					</td>
+
+					<td><input type="text" name="pass_age_years" placeholder="Age: yrs" /></td>
+					<td><input type="text" name="pass_age_mos" placeholder="Age: mos" /></td>
+
+					<td>
+						<input type="radio" name="pass_gender" value = "M" checked />male<br />
+						<input type="radio" name="pass_gender" value = "F" />female<br />
+						<input type="radio" name="pass_gender" value = "U" />unkown
+		 			</td>
+
+		 			<td>
+		 				<input type="radio" name="pass_married" value = "y">Yes<br />
+		 				<input type="radio" name="pass_married" value = "n" checked>No
+		 			</td>
+
+					<td><input type="text" name="pass_occupation" placeholder="Calling or Occupation" /><br /></td>
+
+		 			<td>
+		 				<input type="radio" name="pass_can_read" value = "y" checked />Yes<br />
+		 				<input type="radio" name="pass_can_read" value = "n" />No
+		 			</td>
+
+					<td>
+						<input type="radio" name="pass_can_write" value = "y" checked />Yes<br />
+						<input type="radio" name="pass_can_write" value = "n" />No
+					</td>
+
+		 			<td><input type="text" name="pass_nationality" placeholder="Nationality" /></td>
+					<td><input type="text" name="pass_race" placeholder="Race" /></td>
+				</tr>
+			</table>
+			<br /><br />
+
+
+					<!-- Passenger's Last Permanent Address (5 rows)-->
+			<table id="3">
+				<tr>
+					<th colspan="4"><h3>(3) Passenger's Last Permanent Address</h3></th>
+					<th colspan="6"><h3>(4) Name, Address  &amp; Relationship of nearest relative in previous place</h3></th>
+				</tr>
+				<tr>
+					<th>Country</th>
+					<th>State or Parish</th>
+					<th>City or Town</th>
+					<th># of Years</th>
+					<th>Relative Last Name</th>
+					<th>Relative First Name</th>
+					<th>Country</th>
+					<th>State</th>
+					<th>City or Town</th>
+					<th>Relationship to passenger</th>
+				</tr>
+				<tr>
+					<td><input type="text" name="place[passenger_previous_residence][country]" placeholder="Country" value = "Barbados" /></td>
+					<td><input type="text" name="place[passenger_previous_residence][state]" placeholder="State or Parish"/></td>
+					<td><input type="text" name="place[passenger_previous_residence][city]" placeholder="City or Town"/></td>
+					<td><input type="text" name="pass_prev_place_num_years" placeholder="# of years?" /></td>
+
+					<!-- Name & Address of nearest relative in country of prev. question (5 rows?)-->
+
+					<td><input type="text" name="person[relative_at_previous_residence][lname]" placeholder="Last name?" value = "Burke" /></td>
+					<td><input type="text" name="person[relative_at_previous_residence][fname]" placeholder="First name?" /></td>
+					<td><input type="text" name="place[relative_at_previous_residence][country]" placeholder="Country" value = "Barbados" /></td>
+					<td><input type="text" name="place[relative_at_previous_residence][state]" placeholder="State or Parish"/></td>
+					<td><input type="text" name="place[relative_at_previous_residence][city]" placeholder="City or Town" /></td>
+					<td><input type="text" name="relative_back_home_relationship" placeholder="How related to passenger?" /></td>
+				</tr>
+			</table>
+			<br /><br />
+
+
+				<!-- (5) Passenger's Final Destination & Previous visit to USA? (4 rows) -->
+			<table id="5">
+				<tr>
+					<th colspan="3"><h3>(5) Passenger's Final Destination</h3></th><th><h3>(6) Previous Visit<br />to the U.S.?</h3></th>
+				</tr>
+				<tr>
+					<th>Country</th>
+					<th>State</th>
+					<th>City or Town</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td><input type="text" name="place[passenger_destination][country]" placeholder="Country" value = "USA" /></td>
+					<td><input type="text" name="place[passenger_destination][state]" placeholder="State" value = "NY" /></td>
+					<td><input type="text" name="place[passenger_destination][city]" placeholder="City or Town" value = "New York City"/></td>
+					
+					<!-- Previous visit to USA? (1 row)-->
+					<td>
+						<input type="radio" style="text-align: center" name="pass_prev_visit" value = "y" />Yes<br />
+						<input type="radio" style="text-align: center" name="pass_prev_visit" value = "n" checked />No
+					</td>
+				</tr>
+			</table>
+			<br /><br />
+
+
+					<!-- Joining someone at Final Destination?  Name, Address & Relationship to Passenger (8 rows) -->
+			<table id="6">
+				<tr>
+					<th colspan="8"><h3>(6) Joining someone? Name, Address &amp; Relationship to Passenger</h3></th>
+				</tr>
+				<tr>
+					<th>Joining someone?</th>
+					<th>Person Last Name</th>
+					<th>Person First Name</th>
+					<th>Country</th>
+					<th>State</th>
+					<th>City or Town</th>
+					<th>Address</th>
+					<th>Relationship to passenger?</th>
+				</tr>
+				<tr>
+
+					<td>
+						<input type="radio" name="pass_join_someone" value = "y" onclick="enable_fields()" checked />Yes<br />
+						<input type="radio" name="pass_join_someone" value = "n" onclick="disable_fields()" />No
+					</td>
+
+					<td><input class = "skipable" type="text" name="person[person_at_destination][lname]" placeholder="Last name?" /></td>
+					<td><input class = "skipable" type="text" name="person[person_at_destination][fname]" placeholder="First name?" /></td>
+					<td><input class = "skipable" type="text" name="place[person_at_destination][country]" placeholder="Country" value = "USA" /></td>
+					<td><input class = "skipable" type="text" name="place[person_at_destination][state]" placeholder="State" value = "NY" /></td>
+					<td><input class = "skipable" type="text" name="place[person_at_destination][city]" placeholder="City or Town" value = "New York City" /></td>
+					<td><input class = "skipable" type="text" name="place[person_at_destination][address]" placeholder="Address" /></td>
+					<td><input class = "skipable" type="text" name="dest_person_relationship" placeholder="Relationship to passenger?" /></td>
+				</tr>
+
+			</table>
+			<br /><br />
+
+				<!-- Physical Description (5 rows) -->
+			<table id="7">
+				<tr>
+					<th colspan="5"><h3>(7) Physical Description of Passenger</h3></th>
+				</tr>
+				<tr>
+					<th>Height</th>
+					<th>Complexion</th>
+					<th>Hair Color</th>
+					<th>Eye Color</th>
+					<th>Identifying Marks</th>
+				</tr>
+				<tr>
+					<td><input type="text" name="pass_height" placeholder="Height" /></td>
+					<td><input type="text" name="pass_complexion" placeholder="Complexion" /></td>
+					<td><input type="text" name="pass_hair_color" placeholder="Hair Color" /></td>
+					<td><input type="text" name="pass_eye_color" placeholder="Eye Color" /></td>
+					<td><input type="text" name="pass_identifying_marks" placeholder="Identifying Marks" /></td>
+				</tr>
+			</table>
+			<br /><br />
+
+					<!-- Place of Birth (3 rows) -->
+			<table id="8">
+				<tr>
+					<th colspan="3"><h3>(8) Place of Birth</h3></th>
+				</tr>
+				<tr>
+					<th>Country</th>
+					<th>State or Parish</th>
+					<th>City or Town</th>
+				</tr>
+				<tr>
+					<td><input type="text" name="place[passenger_birth][country]" placeholder="Country" value = "Barbados" /></td>
+					<td><input type="text" name="place[passenger_birth][state]" placeholder="State or Parish"/></td>
+					<td><input type="text" name="place[passenger_birth][city]" placeholder="City or Town"/></td>
+				</tr>
+			</table>
+			<br /><br />
+
+
+			<input class="btn" type="submit" value = "Submit"/>
+			<input class="btn" type="reset" />
+
+		</form>
+	</body>
+<html>
+
+
+
+

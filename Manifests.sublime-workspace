@@ -1,0 +1,478 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pers",
+				"person_fin_dst_lname"
+			],
+			[
+				"the",
+				"the_rows"
+			],
+			[
+				"NY",
+				"NY"
+			],
+			[
+				"U",
+				"USA"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"ereg",
+				"eregi"
+			],
+			[
+				"str",
+				"strcmp"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 344.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: REQUEST['…']"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/php_functions3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/manifest2.5mb.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record4.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_entry_form4.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/variables.php",
+		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/stephentanner/Desktop/temp.sql",
+		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record3.php.bak.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_entry_form3.html",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./Source code/temp home of php files/test.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/php_functions2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/test4.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_entry_form.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/php_functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/get_ids.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_form.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/manifest2.4mb.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/manifest2.4mb.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/pr1/Manifests.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/get_ids.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test4.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/php_functions2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test_form_table8.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/man_insert.php",
+		"/Applications/XAMPP/xamppfiles/phpMyAdmin/config.sample.inc.php",
+		"/Applications/XAMPP/xamppfiles/phpMyAdmin/config.inc.php",
+		"/Applications/XAMPP/xamppfiles/proftpd/scripts/ctl.sh",
+		"/Applications/XAMPP/xamppfiles/htdocs/test3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Manifests.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/argstest1.5.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cloak+dagger.js",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./Source code/temp home of php files/argstest1.5.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/NEW PERSONS QUERIES.sql",
+		"/Users/stephentanner/Downloads/manifest_info4.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/NEW PERSONS QUERIES-DATA ENTRY ORDER.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/test_form_table7 8-26-2014.html",
+		"/Applications/XAMPP/xamppfiles/phpmyadmin 4.2.7.1/config.inc.php",
+		"/Applications/XAMPP/xamppfiles/phpMyAdmin-4.2.9-english/config.sample.inc.php",
+		"/Applications/XAMPP/xamppfiles/phpMyAdmin-4.2.9-english/setup/frames/config.inc.php",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini",
+		"/Applications/XAMPP/xamppfiles/htdocs/Passenger Manifests Information 7.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/test_form_table7.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/php_functions.php",
+		"/Users/stephentanner/Library/Containers/com.bitnami.mampstack/Data/app-5_4_9/apps/phpmyadmin/htdocs/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/manifest2.4.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/get_ids3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/argstest1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/get_ids4.php",
+		"/Users/stephentanner/Documents/W3C Stuff/untitled.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/classtest1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/argstest1.5 9-24-2014.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/argstest2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/new_idea.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ids.php",
+		"/Users/stephentanner/Dropbox/Courses/LIS531Z/xmldemos+quiz/test1.php",
+		"/Users/stephentanner/Dropbox/Courses/LIS531Z/xmldemos+quiz/test2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/person_class.php",
+		"/Users/stephentanner/Dropbox/Steve's KB/Current/kb_scripts.js",
+		"/Users/stephentanner/Dropbox/Steve's KB/Current/kb_search_form.html",
+		"/Users/stephentanner/Dropbox/Steve's KB/Current/sanitized.xml",
+		"/Users/stephentanner/Dropbox/Courses/LIS531Z/xmldemos+quiz/test3.php",
+		"/Users/stephentanner/Documents/Steve's reading history.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/array1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test 8-12-2014-7-45pm.php",
+		"/Users/stephentanner/Downloads/Take With/php_functions.php",
+		"/Users/stephentanner/Downloads/Passenger Manifests Information 6.sql",
+		"/Users/stephentanner/Desktop/untitled.sql",
+		"/Users/stephentanner/Desktop/Passenger Manifests Information 6.sql",
+		"/Users/stephentanner/Desktop/Passenger Manifests Information 6.txt",
+		"/Users/stephentanner/Desktop/overview.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simple_input_processing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test2 9-1-2014 4-41.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/runner-ups.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simple_input_processing 8-29-2014.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simple_input_processing 8-26-2014.php",
+		"/Users/stephentanner/Desktop/simple_input_processing.php",
+		"/Users/stephentanner/Library/Application Support/Firefox/Profiles/wjeeek1c.default/prefs.js",
+		"/Users/stephentanner/Library/Thunderbird/Profiles/my_prefs_ofo.js",
+		"/Users/stephentanner/Library/Thunderbird/Profiles/my_prefs.js",
+		"/Users/stephentanner/Desktop/vessel_queries.php",
+		"/Users/stephentanner/Desktop/Passenger Manifest Project/test.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test 8-12-2014-5-11pm.php",
+		"/Users/stephentanner/Desktop/test 8-21-2014 5-28.php",
+		"/Users/stephentanner/Library/Application Support/Firefox/profiles.ini",
+		"/Users/stephentanner/Desktop/test 8-18-2014 5-26.php",
+		"/Users/stephentanner/Desktop/test 8-18-2014.php",
+		"/Users/stephentanner/Desktop/test_form_table7.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/test 8-12-2014-5-53pm.php",
+		"/Users/stephentanner/Library/Thunderbird/Profiles/ec0q49yt.default/prefs.js",
+		"/Users/stephentanner/Music/iTunes/iTunes Music Library.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^[,]\\t",
+			"pass_fin_dst",
+			"pass_dest",
+			"visit?",
+			"how_related",
+			"rev_place_relative",
+			"prev_place_relative",
+			"pass_city",
+			"pass_state",
+			"pass_country",
+			"id_pass_place",
+			"id_sailed_from",
+			"prev",
+			"tab",
+			", ",
+			"  ",
+			"   ",
+			"    ",
+			"sailed_from",
+			"date_arrive",
+			"date_depart",
+			"date_arrive",
+			"vessel_id",
+			"read",
+			"person_fin_dst",
+			"dest_person_joining",
+			"join",
+			"joining",
+			"dest",
+			"person",
+			"person_fin_dst_city",
+			"person_fin_dst_state",
+			"dest_country",
+			"pass_dest",
+			"num_years",
+			",\n",
+			"num_years",
+			"pass_prev_num_years",
+			"pass_prev_place_how_long",
+			"prev_place_how_long",
+			"trim",
+			"l",
+			"dest_city",
+			"dest_country",
+			"prev_place_city",
+			"prev_place_country\nprev_place_city",
+			"\\$.*\\['(.*)'.*?;",
+			".*['(\\w)'.*$",
+			"\\n\\n",
+			"\\t\\}",
+			"\\t}",
+			"\\tif.*?\\n.*?\\$",
+			".*(\\$.*?;)",
+			"isset",
+			"!empty",
+			"NULL",
+			"'NULL",
+			"NULL",
+			"'NULL'",
+			"on file",
+			"not",
+			"create",
+			"dest_person_",
+			"thingy",
+			"2",
+			"q_array",
+			"2",
+			"New ID is",
+			"new id",
+			"lnk",
+			"link",
+			"sail-from",
+			"Info",
+			"</",
+			"show",
+			"diagnostic",
+			"v",
+			"isset",
+			"qa",
+			"get_place_id",
+			"new_vessel",
+			"connect",
+			"$link",
+			"Place i",
+			"whoopsie",
+			"//p",
+			"p>\"",
+			"/p>",
+			"\\n",
+			"`",
+			"stop here",
+			"row",
+			"start",
+			"sail_from_city",
+			"sail_from_country",
+			"empty",
+			"while",
+			"$rows",
+			"\\t+(.+) = .*;",
+			"(`.+`).*?,$",
+			"`.*?,$",
+			"`.*?$",
+			"`.*$",
+			"count(",
+			"count ",
+			"count",
+			"row_cnt",
+			"test3",
+			"gene14",
+			"manifest_info5",
+			"int(11)",
+			" ON UPDATE",
+			" ON DELETE",
+			" REFERENCES",
+			" FOREIGN",
+			" ADD KEY",
+			"id_rel_prev_place_relative",
+			"id_rel_prev_place_person",
+			"rel_prev_place_relationship",
+			"id_rel_prev_place_place",
+			"id_rel_prev_place_person",
+			"m_id",
+			"id_place_sailed_to",
+			"id_passenger",
+			"id_fin_dest",
+			"id_sailed_from",
+			"id_from",
+			"id_prev_place_relative"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			",\\t",
+			"\\t",
+			"dest_person",
+			"$1",
+			"\\n",
+			"",
+			"}",
+			"\\$",
+			"$1",
+			"",
+			"MY_VARiable",
+			"my_variable",
+			"",
+			"searchterms",
+			"",
+			"dbc",
+			"lookup_place_id",
+			"$dbc",
+			"/p",
+			"/p>\\n\"",
+			"/p>\\n",
+			"'",
+			"$1,",
+			"$1",
+			"`",
+			"INT",
+			"\\n    ON UPDATE",
+			"\\n    ON DELETE",
+			"\\n    REFERENCES",
+			"\\n    FOREIGN",
+			"\\n\\tFOREIGN",
+			"\\nFOREIGN",
+			"\\nINDEX",
+			"id_place_sailed_from",
+			"id_sailed_from",
+			"id_from",
+			"create_new_record",
+			"</p>\\n",
+			"</p?>\\n",
+			"</p?\\n",
+			"dbc",
+			"manifest_excel_data",
+			"dbc",
+			"",
+			"dbc",
+			"link",
+			"m_id",
+			"i",
+			"",
+			"row",
+			" ",
+			" = ",
+			"0",
+			"1",
+			"place",
+			"\\t",
+			"0000",
+			"",
+			"\\t",
+			"`",
+			"\\t",
+			",\\t",
+			", ",
+			"",
+			"$1",
+			",\\t",
+			"$1\\t",
+			"',\\t",
+			",\\t`",
+			",\\t'",
+			", ",
+			",",
+			",\\n",
+			" ,\\n",
+			" ",
+			"0,",
+			"0",
+			"",
+			", \\t",
+			"('",
+			"')\\n",
+			"'\\n",
+			"$1",
+			"', '",
+			"` VARCHAR(25),\\n`",
+			"` VARCHAR(25)\\n`",
+			"",
+			"90",
+			"a0",
+			"b0",
+			"value = \""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
