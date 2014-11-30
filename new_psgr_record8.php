@@ -109,7 +109,7 @@
 
 	var_dump($manifest_terms);// we have successfully linked persona's id to SQL field.
 
-	echo "<p><a href='http://localhost/p1/$user_form'>Back to entry form</a></p>\n";
+	echo "<p><a href='http://localhost/p2/$user_form'>Back to entry form</a></p>\n";
 
 	exit("<p class = 'ghost'>Stop here for now</p>\n");
 
@@ -200,7 +200,7 @@
 	//close connection 
 	mysqli_close($dbc);
 
-	echo"<p><a href='http://localhost/p1/$user_form'>Back to passenger data entry form</a></p>";
+	echo"<p><a href='http://localhost/p2/$user_form'>Back to passenger data entry form</a></p>";
 
 	?>
 
