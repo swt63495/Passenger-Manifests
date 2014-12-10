@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"var",
+				"var_dump"
+			],
+			[
 				"pers",
 				"person_fin_dst_lname"
 			],
@@ -35,6 +39,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "manifestSimple1.sql",
+			"settings":
+			{
+				"buffer_size": 21276,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new_psgr_record8.php",
+			"settings":
+			{
+				"buffer_size": 7409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php_functions3.php",
+			"settings":
+			{
+				"buffer_size": 3702,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "psgr_data_entry_form8.html",
+			"settings":
+			{
+				"buffer_size": 15133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "untitled.php",
+			"settings":
+			{
+				"buffer_size": 3664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "untitled2.php",
+			"settings":
+			{
+				"buffer_size": 2333,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,7 +96,15 @@
 		[
 			[
 				"Snippet: ",
-				"Snippet: REQUEST['…']"
+				"Snippet: echo \"…\""
+			],
+			[
+				"Snippet: e",
+				"Snippet: GET['…']"
+			],
+			[
+				"Snippet: echo",
+				"Snippet: echo \"…\""
 			]
 		],
 		"width": 440.0
@@ -64,29 +124,31 @@
 	},
 	"file_history":
 	[
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/php_functions3.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/manifest2.5mb.sql",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record4.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_entry_form4.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/variables.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/psgr_data_entry_form8.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/php_functions3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/manifestSimple1.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record8.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/untitled.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/untitled2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record8-old.php",
+		"/Users/stephentanner/Desktop/beynd.com stuff.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/manifest2.6mb.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/older_files/manifest2.4mb.bak.sql",
 		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/stephentanner/Desktop/temp.sql",
-		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record3.php.bak.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_entry_form3.html",
-		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./Source code/temp home of php files/test.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record2.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/php_functions2.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/new_psgr_record.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/test4.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_entry_form.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/php_functions.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/get_ids.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/psgr_data_form.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/manifest2.4mb.sql",
-		"/Applications/XAMPP/xamppfiles/htdocs/manifest2.4mb.sql",
-		"/Applications/XAMPP/xamppfiles/htdocs/pr1/Manifests.sublime-project",
+		"/Users/stephentanner/Downloads/Cabeza_HEAD.stl",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/older_files/manifest2.4mb.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/manifest2.5mb.sql",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./Source code/p1_net/Manifests.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record7.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/older_files/php_functions2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/older_files/new_psgr_record2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record4.php",
+		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/User/ehco_p",
+		"/Users/stephentanner/Desktop/Still looking for junior php developer jobs in Cambridge, MA?.eml",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record6.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p1/variables.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/get_ids.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/manifest2.4mb.sql",
 		"/Applications/XAMPP/xamppfiles/htdocs/test4.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/php_functions2.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/test_form_table8.html",
@@ -140,6 +202,7 @@
 		"/Users/stephentanner/Desktop/Passenger Manifests Information 6.txt",
 		"/Users/stephentanner/Desktop/overview.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/simple_input_processing.php",
+		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Applications/XAMPP/xamppfiles/htdocs/test2 9-1-2014 4-41.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/runner-ups.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/simple_input_processing 8-29-2014.php",
@@ -176,98 +239,88 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"^[,]\\t",
-			"pass_fin_dst",
-			"pass_dest",
-			"visit?",
-			"how_related",
-			"rev_place_relative",
-			"prev_place_relative",
-			"pass_city",
-			"pass_state",
-			"pass_country",
-			"id_pass_place",
-			"id_sailed_from",
-			"prev",
-			"tab",
-			", ",
-			"  ",
-			"   ",
-			"    ",
-			"sailed_from",
-			"date_arrive",
-			"date_depart",
-			"date_arrive",
-			"vessel_id",
-			"read",
-			"person_fin_dst",
-			"dest_person_joining",
-			"join",
-			"joining",
-			"dest",
+			"input_field",
+			"stop",
+			"type",
+			"id_relative_back_home_person",
 			"person",
-			"person_fin_dst_city",
-			"person_fin_dst_state",
-			"dest_country",
-			"pass_dest",
-			"num_years",
-			",\n",
-			"num_years",
-			"pass_prev_num_years",
-			"pass_prev_place_how_long",
-			"prev_place_how_long",
-			"trim",
-			"l",
-			"dest_city",
-			"dest_country",
-			"prev_place_city",
-			"prev_place_country\nprev_place_city",
-			"\\$.*\\['(.*)'.*?;",
-			".*['(\\w)'.*$",
-			"\\n\\n",
-			"\\t\\}",
-			"\\t}",
-			"\\tif.*?\\n.*?\\$",
-			".*(\\$.*?;)",
-			"isset",
-			"!empty",
-			"NULL",
-			"'NULL",
-			"NULL",
-			"'NULL'",
-			"on file",
-			"not",
-			"create",
-			"dest_person_",
-			"thingy",
-			"2",
-			"q_array",
-			"2",
-			"New ID is",
-			"new id",
-			"lnk",
-			"link",
-			"sail-from",
-			"Info",
-			"</",
-			"show",
-			"diagnostic",
-			"v",
-			"isset",
-			"qa",
-			"get_place_id",
-			"new_vessel",
-			"connect",
-			"$link",
-			"Place i",
-			"whoopsie",
-			"//p",
-			"p>\"",
-			"/p>",
+			"rel_prev_place",
+			"prev_place",
+			"id_prev_place_relative",
+			"pass_prev_visit_state'",
+			" */\\*.*?\\*/ *",
+			"/\\*",
+			"/*",
+			"'pass_prev_visit_state'",
+			"gene20",
+			"stop",
+			"new_id",
+			"<http(.|\\n)*?\\t",
+			".*\\t(.|\\n)+?<http(.|\\n)+?\\t",
+			".*\\t(.|\\n)*?<http(.|\\n)+?\\t",
+			"\\t((.|\\n)+?)<http(.|\\n)+?\\t",
+			"\\t((.|\\n)+?)<http(.|\\n)+?\\t?",
+			"\\t((.|\\n)+?)<http(.|\\n)+?\\t",
+			"\\t(.|\\n)+?<http(.|\\n)+?\\t",
+			"\\t(.|\\n)+?<http(.|\\n)*?",
+			"\\t(.|\\n)+?<http",
+			".*\\n(.*)<http",
+			"\\t",
+			"###;",
 			"\\n",
-			"`",
-			"stop here",
-			"row",
+			"\\n\\n",
+			"view\\n",
+			"(`.*?`).*,",
+			"  ",
+			"(`.*?`).*,",
+			", ",
+			"INSERT INTO (`.*`)",
+			"(.*?)\\((`.*`)\\)(.*)",
+			"!(.*key.*?)`",
+			"!(.*key.*)`",
+			"!(.*key.*)",
+			"\\((`.*`)\\)?!=.*key.*",
+			"\\((`.*`)\\)?<!key",
+			"(?:   PRIMARY KEY )\\((`.*`)\\)",
+			"!(?:   PRIMARY KEY )\\((`.*`)\\)",
+			"\\((`.*`)\\)?!=   PRIMARY KEY ",
+			"\\((`.*`)\\)",
+			"\\n",
+			"\"",
+			"name.*?\"(.*?)\"",
+			"destination",
+			"destination_host",
+			"\\[\\n",
+			"[\\n",
+			"destination_host",
+			"[dest]",
+			"dest",
+			"relative",
+			"passenger_previous",
+			"person_or_event",
+			"$place",
+			"departure",
+			"person",
+			"state",
+			"country",
+			"fname",
+			"lname",
+			"type",
+			"city",
+			"psgr_data_entry_form7.html",
+			"psgr",
+			"passenger",
+			"\\[0\\]",
+			"$i",
+			"i",
+			"ln",
+			"psgr",
+			"passenger",
+			"empty",
+			"person",
+			"stop",
+			"id_c_person",
+			"canon_person",
 			"start",
 			"sail_from_city",
 			"sail_from_country",
@@ -303,7 +356,17 @@
 			"id_fin_dest",
 			"id_sailed_from",
 			"id_from",
-			"id_prev_place_relative"
+			"id_prev_place_relative",
+			"new_record",
+			"</p>",
+			"xdebug",
+			"flush",
+			"zend",
+			"[zend]",
+			"config",
+			"config.",
+			"3.5.4",
+			"629915dc0cc6d49f3ec9c9607b8942f3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -311,28 +374,34 @@
 		"regex": true,
 		"replace_history":
 		[
-			",\\t",
-			"\\t",
-			"dest_person",
+			"persona",
+			" ",
+			"\\n",
+			"\\n\\n",
+			"$1\\n\\n\\n",
+			"$1\\n",
 			"$1",
 			"\\n",
+			";",
+			"###\\n",
+			"###",
 			"",
-			"}",
-			"\\$",
 			"$1",
 			"",
-			"MY_VARiable",
-			"my_variable",
-			"",
-			"searchterms",
-			"",
-			"dbc",
-			"lookup_place_id",
-			"$dbc",
-			"/p",
-			"/p>\\n\"",
-			"/p>\\n",
+			"$1",
+			"\\n",
+			"$2",
+			",\\n",
 			"'",
+			"'\nperson_at_destination",
+			"$1\nperson_at_destination",
+			"\nperson_at_destination",
+			"\n\nperson_at_destination",
+			"of_interest",
+			"$person_or_event",
+			"place",
+			"$user_form",
+			"[$type]",
 			"$1,",
 			"$1",
 			"`",
@@ -412,8 +481,171 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "manifestSimple1.sql",
+					"settings":
+					{
+						"buffer_size": 21276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "new_psgr_record8.php",
+					"settings":
+					{
+						"buffer_size": 7409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2715,
+								2715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1769.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "php_functions3.php",
+					"settings":
+					{
+						"buffer_size": 3702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "psgr_data_entry_form8.html",
+					"settings":
+					{
+						"buffer_size": 15133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "untitled.php",
+					"settings":
+					{
+						"buffer_size": 3664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "untitled2.php",
+					"settings":
+					{
+						"buffer_size": 2333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -450,9 +682,9 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 68.0
+		"height": 141.0
 	},
-	"save_all_on_build": true,
+	"save_all_on_build": false,
 	"select_file":
 	{
 		"height": 0.0,
@@ -463,16 +695,16 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 219.0,
+	"side_bar_width": 225.0,
 	"status_bar_visible": true
 }

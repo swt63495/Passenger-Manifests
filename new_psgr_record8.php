@@ -61,7 +61,14 @@
 
 	// ====================== Persons ======================
 
-	// $category = array('passenger' => 'pa_id', 'relative_at_previous_residence' => 'rbh_id', 'person_at_destination', 'dp_id');
+	/*
+
+	 $category array holds the names of fields from the entry form,
+			('passenger', 'person_at_destination', relative_at_previous_residence)
+	 and their corresponding field names ()in the MySQL table,
+			('id_passenger', 'id_dest_person', 'id_relative_back_home')
+
+	*/
 
 	$category = array(
 		'passenger' => 'id_passenger', 
