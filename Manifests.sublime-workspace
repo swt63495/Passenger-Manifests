@@ -39,59 +39,11 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "manifestSimple1.sql",
-			"settings":
-			{
-				"buffer_size": 21276,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "new_psgr_record8.php",
-			"settings":
-			{
-				"buffer_size": 7409,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "php_functions3.php",
-			"settings":
-			{
-				"buffer_size": 3702,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "psgr_data_entry_form8.html",
-			"settings":
-			{
-				"buffer_size": 15133,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "untitled.php",
-			"settings":
-			{
-				"buffer_size": 3664,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "untitled2.php",
-			"settings":
-			{
-				"buffer_size": 2333,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 344.0,
+		"height": 267.0,
 		"selected_items":
 		[
 			[
@@ -107,7 +59,7 @@
 				"Snippet: echo \"…\""
 			]
 		],
-		"width": 440.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -124,17 +76,35 @@
 	},
 	"file_history":
 	[
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./jblist/beyonders1.html",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./jblist/Perl_version.pl",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/manifestSimple1.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/new_psgr_record8.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/psgr_data_entry_form8.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/php_functions3.php",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./jblist/simmonstest1.html",
+		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./jblist/simmons.html",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./jblist/professional-job-listings-in-new-england.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/entry_form_fields_list.php",
+		"/Users/stephentanner/Dropbox/Netbeans, Xampp, Workbench, Git, Dropbox, etc./jblist/bob.sh",
+		"/Users/stephentanner/Desktop/Simmons Job List Headlines.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/untitled.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/untitled2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/p2/SQL Tables Fields",
+		"/Users/stephentanner/Dropbox/Steve's KB/Current/knowledgebase.xml",
+		"/Users/stephentanner/Dropbox/Steve's KB/Current/demo_knowledgebase.xml",
+		"/Users/stephentanner/Google Drive/Job and Career/trim_email.re",
+		"/Users/stephentanner/Desktop/Simmons Job List Headlines MA.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/psgr_data_entry_form8.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/php_functions3.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/manifestSimple1.sql",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record8.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/p2/untitled.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/p2/untitled2.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/new_psgr_record8-old.php",
 		"/Users/stephentanner/Desktop/beynd.com stuff.txt",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/manifest2.6mb.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/older_files/manifest2.4mb.bak.sql",
-		"/Users/stephentanner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/stephentanner/Downloads/Cabeza_HEAD.stl",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/older_files/manifest2.4mb.sql",
 		"/Applications/XAMPP/xamppfiles/htdocs/p1/manifest2.5mb.sql",
@@ -225,7 +195,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 83.0
 	},
 	"find_in_files":
 	{
@@ -239,134 +209,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"input_field",
-			"stop",
-			"type",
-			"id_relative_back_home_person",
-			"person",
-			"rel_prev_place",
-			"prev_place",
-			"id_prev_place_relative",
-			"pass_prev_visit_state'",
-			" */\\*.*?\\*/ *",
-			"/\\*",
-			"/*",
-			"'pass_prev_visit_state'",
-			"gene20",
-			"stop",
-			"new_id",
-			"<http(.|\\n)*?\\t",
-			".*\\t(.|\\n)+?<http(.|\\n)+?\\t",
-			".*\\t(.|\\n)*?<http(.|\\n)+?\\t",
-			"\\t((.|\\n)+?)<http(.|\\n)+?\\t",
-			"\\t((.|\\n)+?)<http(.|\\n)+?\\t?",
-			"\\t((.|\\n)+?)<http(.|\\n)+?\\t",
-			"\\t(.|\\n)+?<http(.|\\n)+?\\t",
-			"\\t(.|\\n)+?<http(.|\\n)*?",
-			"\\t(.|\\n)+?<http",
-			".*\\n(.*)<http",
+			"(.+)(\">.+$)\\n\\n.+\\2",
+			"(^.+)(\">.+$)\\n\\n.+\\1",
+			"(^.*\">.+$)\\n\\n.+\\1",
+			".*(\">.+$)\\n\\n.+\\1",
+			".*(>.+$)\\n\\n.+\\1",
+			"(.*>.*)\\n\\n\\1",
+			"(.*>.*)\\\\\\1",
+			"(.*)\">(.*)\\n\\n$1\">$2",
+			"(.*)\">(.*)\\n\\n\\1\">\\2",
+			"(.*\">.*)\\n\\n\\1",
+			"(.*\">.*)\\n\\n\\n",
+			"(.*\">.*)\\n\\n\\1",
+			"\">(.*)[\\s\\S]+?\\n\\1",
+			"\">(.*)[\\s\\S]+?\\nn\\1",
+			"\">(.*)[\\s\\S]+?\\1",
+			"\">(.*)[\\s\\S]\\1",
+			"\">(.*)[\\s\\S]?\\1",
+			".*\">(.*)\\n\\n\\1",
+			"(.*\">.*)\\n\\n\\1",
+			"(.*\">.*)\\n\\n(.*\">.*)",
+			"(.*\">.*)\\n\\n(.*>\".*)",
+			"(.*\">.*)\\n\\n",
+			"(.*\">.*)\\n\\n\\",
+			"(.*\">.*)\\n\\n\\1",
+			".*\">.*\\n\\n\\1",
+			".*\">.*",
+			"\">",
+			".*\">.*",
+			"(.*\">.*)\\n\\n\\1",
+			"(<.*)\\n\\n\\1",
+			"(.*)\\n\\n\\1/m",
+			"(.*)\\n\\n\\1",
+			"(.*)\\n\\n\\n$1",
+			"(.*)\\n\\n$1",
+			".*%",
+			"(^.+\">(.*)</a.+$)",
+			"(^.+\"(.*)</a.+$)",
+			"(^.+>()</a.+$)",
+			"(^.+\">()</a.+$)",
+			"(^.+\\\">()</a.+$)",
+			"^.+$",
+			"^[\\s\\S]+?$",
+			"\\n\\n\\n",
+			"(^\\<.*)\\n<http://(.*)>\\n(^\\<.*)\\n",
+			"(^\\<.*)\\n<http://(.*)>\\n(^\\<.*)\\n (or maybe [(^\\<.*\\n?^\\<.*)\\n?<http://(.*)>\\n(^\\<.*)\\n]",
+			"(.*?) $",
+			"^ *(.*) *$",
+			"(^\\<.*)\\n<http://(.*)>\\n(^\\<.*)\\n (or maybe [(^\\<.*\\n?^\\<.*)\\n?<http://(.*)>\\n(^\\<.*)\\n]",
+			"More jobs like Web Developer[\\s\\S]+?»",
+			"^(senior|sr.|java\\>|android|C\\+\\+|.net)[\\s\\S]+?\\n\\n",
 			"\\t",
-			"###;",
-			"\\n",
-			"\\n\\n",
-			"view\\n",
-			"(`.*?`).*,",
-			"  ",
-			"(`.*?`).*,",
-			", ",
-			"INSERT INTO (`.*`)",
-			"(.*?)\\((`.*`)\\)(.*)",
-			"!(.*key.*?)`",
-			"!(.*key.*)`",
-			"!(.*key.*)",
-			"\\((`.*`)\\)?!=.*key.*",
-			"\\((`.*`)\\)?<!key",
-			"(?:   PRIMARY KEY )\\((`.*`)\\)",
-			"!(?:   PRIMARY KEY )\\((`.*`)\\)",
-			"\\((`.*`)\\)?!=   PRIMARY KEY ",
-			"\\((`.*`)\\)",
-			"\\n",
-			"\"",
-			"name.*?\"(.*?)\"",
-			"destination",
-			"destination_host",
-			"\\[\\n",
-			"[\\n",
-			"destination_host",
-			"[dest]",
-			"dest",
-			"relative",
-			"passenger_previous",
-			"person_or_event",
-			"$place",
-			"departure",
-			"person",
-			"state",
-			"country",
-			"fname",
-			"lname",
-			"type",
-			"city",
-			"psgr_data_entry_form7.html",
-			"psgr",
-			"passenger",
-			"\\[0\\]",
-			"$i",
-			"i",
-			"ln",
-			"psgr",
-			"passenger",
-			"empty",
-			"person",
-			"stop",
-			"id_c_person",
-			"canon_person",
-			"start",
-			"sail_from_city",
-			"sail_from_country",
-			"empty",
-			"while",
-			"$rows",
-			"\\t+(.+) = .*;",
-			"(`.+`).*?,$",
-			"`.*?,$",
-			"`.*?$",
-			"`.*$",
-			"count(",
-			"count ",
-			"count",
-			"row_cnt",
-			"test3",
-			"gene14",
-			"manifest_info5",
-			"int(11)",
-			" ON UPDATE",
-			" ON DELETE",
-			" REFERENCES",
-			" FOREIGN",
-			" ADD KEY",
-			"id_rel_prev_place_relative",
-			"id_rel_prev_place_person",
-			"rel_prev_place_relationship",
-			"id_rel_prev_place_place",
-			"id_rel_prev_place_person",
-			"m_id",
-			"id_place_sailed_to",
-			"id_passenger",
-			"id_fin_dest",
-			"id_sailed_from",
-			"id_from",
-			"id_prev_place_relative",
-			"new_record",
-			"</p>",
-			"xdebug",
-			"flush",
-			"zend",
-			"[zend]",
-			"config",
-			"config.",
-			"3.5.4",
-			"629915dc0cc6d49f3ec9c9607b8942f3"
+			"view.*\\n.*\\n{1,2}",
+			"More jobs like Web Developer[\\s\\S]+?»",
+			"More jobs like Web Developer",
+			"<div class=\"post\">[\\s\\S]+?\\1",
+			"<div class=\"post>\"",
+			"<div class=\"post>\"[\\s\\S]",
+			"(<div class=\"post>\"[\\s\\S])+?",
+			"<div class=\"post\">",
+			".*<div class=\"post\">",
+			"<h3>.*?MA</h3>",
+			"class=\"post\"",
+			"<div class=\"post\">",
+			"<div class=\"post\">[\\s\\S]+?(MA</a></h3>)+?[\\s\\S]+?</div>(\\s|\\S)+?</div>",
+			"<div class=\"post\">[\\s\\S]+?MA</a>[\\s\\S]+?</div>(\\s|\\S)+?</div>",
+			"<div class=\"post\">[\\s\\S]+?</div>(\\s|\\S)*</div>",
+			"<div class=\"post\">[\\s\\S]+?<\\/div>(\\s|\\S)*<\\/div>",
+			"<\\/div>(\\s|\\S)+?<\\/div>",
+			"<\\/div>(\\s|\\S)*<\\/div>",
+			"<\\/div>",
+			"<\\/div>[\\s\\S]*?",
+			"<\\/div>[\\s\\S]*?<\\/div>",
+			"</div>[\\s\\S]*?</div>",
+			"<div class=\"post\">[\\s\\S]+?</div>[\\s\\S]+?</p>",
+			"<div class=\"post\">([\\s\\S]+?</div>){2}",
+			"<div class=\"post\">([\\s\\S]+</div>)+",
+			"<div class=\"post\">([\\s\\S]</div>)+",
+			"<div class=\"post\">[\\s\\S]+?\\<\\/div>",
+			"<div class=\"post\">[\\s\\S]+</div>{2}",
+			"<div class=\"post\">[\\s\\S]\\2</div>",
+			"<div class=\"post\">[\\s\\S]+?</div>",
+			"ma</a>",
+			"(DOCTYPE)[\\w\\W]*?(<div class=\"post\">)",
+			"(DOCTYPE)[\\w\\W]*?(<div class=\"post\">)$",
+			"(DOCTYPE)[\\w\\W]*main.*?$",
+			"(DOCTYPE>)[\\w\\W]*main.*$",
+			"(DOCTYPE>)[\\w\\W]*Based on your recent activity.*$",
+			"sql_field",
+			"persona",
+			"`(.*)` (char|varchar|int|date)",
+			"captu",
+			"`(.*?)` (int|char|date)",
+			"input.*name.{0,1}=.{0,1}\"(.*?)\"",
+			"input.*name.{0,1}=.{0,1}\".*?\"",
+			"\\n	<entry></entry>",
+			"<table.*>view<.*$",
+			"<table.*?>view<.*?$",
+			"<table[\\w\\W]*?>view<[\\w\\W]*?$",
+			"<table?[\\w\\W]*?>view<[\\w\\W]*?$",
+			"<table[\\w\\W]*?>view<[\\w\\W]*?$",
+			"<table[\\w\\W]",
+			"<table[\\w\\W]*>Version<[\\w\\W]*$",
+			"<table[\\w\\W]*>Version<[\\w\\W]*",
+			"<table",
+			"(DOCTYPE>)[\\w\\W]*Based on your recent activity[\\w\\W]*?<\\/tr>",
+			"[\\w\\W]*(<!DOCTYPE).*",
+			"=\\n",
+			"[\\w\\W]*(<!DOCTYPE).*",
+			"DD[\\w\\W]*(<!DOCTYPE>)",
+			"[\\w\\W]*(<!DOCTYPE>)",
+			"(<!DOCTYPE>)[\\w\\W]*",
+			"(<!DOCTYPE>)[\\w\\W]*Based on your recent activity.*$",
+			"=\\n",
+			"(<!DOCTYPE))[\\w\\W]*Based on your recent activity.*$/",
+			"(DOCTYPE>)[\\w\\W]*Based",
+			"(DOCTYPE>)[\\w\\W]*Based on your recent activity",
+			"(DOCTYPE>)[\\w\\W]*Based on your recent activity.*",
+			"(DOCTYPE>)[\\w\\W]*Based on your recent activity.*$",
+			"=\\n",
+			" style.*?",
+			"(DOCTYPE>)[\\w\\W]*Based on your recent activity.*$",
+			"(DOCTYPE).*",
+			".*>View<.*\\n\\n",
+			">View<",
+			".*>View<.*",
+			".*\\>View\\<.*\\n\\n",
+			".*>View<.*\\n\\n",
+			".*View.*"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -374,6 +344,46 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\\1\\2",
+			"\\1\\n",
+			"\\1",
+			"\\1\\n",
+			"\\1\\n\\n",
+			"\\1",
+			"\\n",
+			"$2%$1",
+			"\\n\\n",
+			"<p><a href=\"$2\">$1, $3</a></p>\\n\\n",
+			"\\1",
+			"<p><a href=\"$2\">$1, $3</a></p>\\n\\n",
+			"",
+			"$1\\n\\n$2",
+			"$1",
+			"",
+			"\\n\\n<table",
+			"$1",
+			"",
+			"$1",
+			"",
+			"$1",
+			"",
+			">",
+			"$1",
+			"$1>",
+			"$1",
+			"",
+			">",
+			"$1",
+			">",
+			"\\n\\n<table",
+			"/tr>\\n",
+			"tr>\\n",
+			"",
+			"\\n\\n<table",
+			"\\n<table",
+			"table>\\n\\n<table",
+			"table>\\n<table",
+			"",
 			"persona",
 			" ",
 			"\\n",
@@ -461,16 +471,7 @@
 			", \\t",
 			"('",
 			"')\\n",
-			"'\\n",
-			"$1",
-			"', '",
-			"` VARCHAR(25),\\n`",
-			"` VARCHAR(25)\\n`",
-			"",
-			"90",
-			"a0",
-			"b0",
-			"value = \""
+			"'\\n"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -481,177 +482,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "manifestSimple1.sql",
-					"settings":
-					{
-						"buffer_size": 21276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "new_psgr_record8.php",
-					"settings":
-					{
-						"buffer_size": 7409,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2715,
-								2715
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1769.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "php_functions3.php",
-					"settings":
-					{
-						"buffer_size": 3702,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "psgr_data_entry_form8.html",
-					"settings":
-					{
-						"buffer_size": 15133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "untitled.php",
-					"settings":
-					{
-						"buffer_size": 3664,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "untitled2.php",
-					"settings":
-					{
-						"buffer_size": 2333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -682,7 +520,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 141.0
+		"height": 92.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -704,7 +542,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 225.0,
 	"status_bar_visible": true
 }
