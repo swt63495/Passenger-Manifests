@@ -110,20 +110,21 @@
 			echo "<p>ID of new record is <b>$p_id</b>.</p>\n";
 		}
 
-		$manifest_terms[$sql_field] = $p_id;
+		$manifest_terms[$sql_field] = $p_id; // What does this do???
+
+		echo '<hr />';
 
 	}
 
+	echo '<p>Hey, check out the dump of manifest terms!!!</p>';
+
 	var_dump($manifest_terms);// we have successfully linked persona's id to SQL field.
 
-	echo "<p><a href='http://localhost/p2/$user_form'>Back to entry form</a></p>\n";
-
-	exit("<p class = 'ghost'>Stop here for now</p>\n");
-
+	echo '<hr />';
 
 	// ====================== Places ======================
 
-	$locale  = array('sailed_from', 'passenger_previous_residence', 'relative_at_previous_residence', 'passenger_destination','person_at_destination', 'passenger_birth');
+	$locale = array('sailed_from', 'passenger_previous_residence', 'relative_at_previous_residence', 'passenger_destination','person_at_destination', 'passenger_birth');
 
 	foreach($locale as $of_interest){
 
@@ -139,10 +140,10 @@
 
 		echo"<p class = 'ghost'>Place <b>$of_interest</b> is:<br />
 		[aka Search terms are] <br />
-		 '$searchterms[address]',<br />
-		 '$searchterms[city]',<br />
+		 '$searchterms[country]', <br />
 		 '$searchterms[state]',<br />
-		 '$searchterms[country]'.
+		 '$searchterms[city]',<br />
+		 '$searchterms[address].',<br />
 		 </p>\n";
 
 		if($pl_id = lookup_id($dbc, 'place', 'id_place', $searchterms)){
@@ -160,8 +161,15 @@
 		// if(!$pl_id = lookup_id($dbc, $tbl, $id, $searchterms)){
 		// 	$pl_id = create_record($dbc, $tbl, $searchterms );
 		// }
+
+		echo '<hr />';
+
+		// need to zero out variables before loop back?
 	}
 
+	echo "<p><a href='http://localhost/p2/$user_form'>Back to entry form</a></p>\n";
+
+	exit("<p class = 'ghost'>Stop here for now</p>\n");
 
 	// ====================== Vessel ID on-file?  ======================
 
