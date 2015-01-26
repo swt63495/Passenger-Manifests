@@ -10,21 +10,21 @@ USE `gene25` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `place` (
   `id_place` INT NOT NULL AUTO_INCREMENT,
-  `address` VARCHAR(45) NULL DEFAULT NULL,
-  `city` VARCHAR(25) NULL DEFAULT NULL,
-  `state` VARCHAR(25) NULL DEFAULT NULL,
   `country` VARCHAR(25) NULL DEFAULT NULL,
+  `state` VARCHAR(25) NULL DEFAULT NULL,
+  `city` VARCHAR(25) NULL DEFAULT NULL,
+  `address` VARCHAR(45) NULL DEFAULT NULL,
   PRIMARY KEY (`id_place`))
 ENGINE = InnoDB;
 
-INSERT INTO `place` (`id_place`, `address`, `city`, `state`, `country`) VALUES
-(1, NULL, 'Bridgetown', '', 'Barbados'),
-(2, NULL, NULL, NULL, 'Barbados'),
-(3, NULL, 'Colon, C.Z.','', 'Panama'),
-(4, NULL, 'Cristobal, C.Z.', '', 'Panama'),
-(5, NULL, 'Panama City', '', 'Panama'),
-(6, NULL, 'New York City', 'NY', 'USA'),
-(7, NULL, 'Boston', 'MA', 'USA');
+INSERT INTO `place` (`id_place`, `country`, `state`, `city`, `address`) VALUES
+(1, 'Barbados', 'St. Michael', 'Bridgetown', NULL),
+(2, 'Barbados', NULL, NULL, NULL),
+(3, 'Panama', 'C.Z.', 'Colon', NULL),
+(4, 'Panama', 'C.Z.', 'Cristobal',, NULL),
+(5, 'Panama', NULL, 'Panama City', NULL),
+(6, 'USA', 'NY', 'New York City', NULL),
+(7, 'USA', 'MA', 'Boston', NULL);
 
 
 -- -----------------------------------------------------
@@ -67,15 +67,15 @@ CREATE TABLE IF NOT EXISTS `document_type` (
 ENGINE = InnoDB;
 
 INSERT INTO `document_type` (`id_document_type`,`document_type`) VALUES
-(1, 'UNKNOWN'),
-(2, 'Passenger Manifest (Alien), NYC'),
-(3, 'Passenger Manifest (Citizen), NYC'),
-(4, 'Birth Certificate'),
-(5, 'City Directory'),
-(6, '1940 Census'),
-(7, '1930 Census'),
-(8, '1920 Census'),
-(9, '1910 Census'),
+( 1, 'UNKNOWN'),
+( 2, 'Passenger Manifest (Alien), NYC'),
+( 3, 'Passenger Manifest (Citizen), NYC'),
+( 4, 'Birth Certificate'),
+( 5, 'City Directory'),
+( 6, '1940 Census'),
+( 7, '1930 Census'),
+( 8, '1920 Census'),
+( 9, '1910 Census'),
 (10, '1900 Census'),
 (11, 'MA State Death Index'),
 (12, 'Social Security Death Index');
